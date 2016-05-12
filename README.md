@@ -8,3 +8,10 @@ The talk will be about an important part that cannot be skipped when fitting mod
 Tableau helps you choose a chart:
 http://www.tableau.com/learn/whitepapers/which-chart-or-graph-is-right-for-you
 
+Formula for CPA_color:
+
+IF ISNULL(SUM([Regs])) THEN 5
+ELSE IF (sum([Costs])/sum([Regs]) / [cpa_threshhold]) >= 5 THEN 5
+ELSE (sum([Costs])/sum([Regs])) / [cpa_threshhold]
+END
+END
