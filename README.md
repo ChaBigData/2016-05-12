@@ -10,6 +10,10 @@ Link to slides: https://docs.google.com/presentation/d/1xSvBROEHhjRkWaCTttn6x9bb
 Tableau helps you choose a chart:
 http://www.tableau.com/learn/whitepapers/which-chart-or-graph-is-right-for-you
 
+Chattanooga Open Data Initiative:
+
+http://www.meetup.com/Open-Chattanooga/
+
 Formula for CPA_color:
 
 IF ISNULL(SUM([Regs])) THEN 5
